@@ -12,9 +12,9 @@ Link do Padlet: https://padlet.com/joaomarcosalcala123/kanban-8ij5jcvmiyhbrknr
 
 _**1.1. Nome do Grupo**_
 
-MATEUS CASTRO DA CUNHA
-PEDRO HENRIQUE DE OLIVEIRA BICALHO
-MURILO HOLZLE DE MORAES
+MATEUS CASTRO DA CUNHA  - https://github.com/Mateuscastroc
+PEDRO HENRIQUE DE OLIVEIRA BICALHO - https://github.com/PedroBiklho
+MURILO HOLZLE DE MORAES - https://github.com/murilo-holzle
 JOAO MARCOS ARAUJO ALCALA - https://github.com/joaomarcosaa
 
 _**1.2. Nome do Sistema**_
