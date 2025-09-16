@@ -4,7 +4,7 @@
 
 Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio.
 
-Link do Padlet:
+Link do Padlet: https://padlet.com/joaomarcosalcala123/kanban-8ij5jcvmiyhbrknr
 
 ## 1. Introdução
 
@@ -12,25 +12,26 @@ Link do Padlet:
 
 _**1.1. Nome do Grupo**_
 
-Indicar o nome e github dos integrantes do grupo
+MATEUS CASTRO DA CUNHA
+PEDRO HENRIQUE DE OLIVEIRA BICALHO
+MURILO HOLZLE DE MORAES
+JOAO MARCOS ARAUJO ALCALA - https://github.com/joaomarcosaa
 
 _**1.2. Nome do Sistema**_
 
-Indicar o nome do software proposto
+Digiteca
 
 _**1.3. Propósito do Sistema**_
 
-Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela  _`nome da empresa`_, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.
-
-O objetivo do sistema  `nome do sistema`  é ....  _<Descrever aqui o objetivo do sistema que será desenvolvido, principais características, benefícios, problemas que o sistema ajudará a resolver, o comportamento principal do sistema, etc.>_
+O objetivo do sistema é criar uma plataforma digital para cadastro e empréstimo de livros, com foco em automatizar e facilitar o processo, especialmente em instituições educacionais onde, atualmente, esse processo ainda é feito de forma analógica.
 
 _**1.2. Público Alvo**_
 
-Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes...  _<descrever aqui se existir mais interessados e que participarão do desenvolvimento do sistema>_
+Alunos, Educadores, bibliotecas e instituições educacionais.
 
 _**1.3. Descrição dos usuários**_
 
-_<Descrever quais os usuários finais do sistema (quem vai utilizar o sistema). Neste espaço vocês vão traçar um perfil de usuário, bem como as personas e análide de tarefas>_
+O sistema será utilizado por diferentes perfis de usuários finais, todos vinculados ao ambiente educacional. Cada grupo de usuários terá permissões e funcionalidades específicas, de acordo com suas necessidades e responsabilidades no processo de empréstimo e gestão de livros.
 
 _**Personas:**_
 
