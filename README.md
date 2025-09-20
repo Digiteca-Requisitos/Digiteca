@@ -59,7 +59,11 @@ _<Preencher com o cenário idealizado depois da aplicação do seu sistema.>_
 
 _**2.1. Requisitos Funcionais**_
 
-_<Link, imagem, arquivo com os requisitos funcionais.>_
+|Identificador   | Descrição                             |Prioridade    |Depende       |
+|----------------|---------------------------------------|--------------|--------------|
+| RF01           | O sistema deve permitir o cadastro e login de usuários.|Alta |      |
+| RF02           | O sistema deve permitir 
+
 
 _**2.2. Requisitos Não Funcionais**_
 
