@@ -75,6 +75,19 @@ _**2.1. Requisitos Funcionais**_
 
 _**2.2. Requisitos Não Funcionais**_
 
+|Identificador   | Descrição                             |Prioridade    |
+|----------------|---------------------------------------|--------------|
+| RN01 |
+| RN02 |
+| RN03 |
+| RN04 |
+| RN05 |
+| RN06 |
+| RN07 |
+| RN08 |
+| RN09 |
+| RN10 |
+
 _<Link, imagem, arquivo com os requisitos não funcionais.>_
 
 _**2.3. Perguntas**_
