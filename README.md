@@ -59,7 +59,7 @@ _<Preencher com o cenário idealizado depois da aplicação do seu sistema.>_
 
 _**2.1. Requisitos Funcionais**_
 
-|Identificador   | Descrição                             |Prioridade    |Depende       |
+|Identificador   | Descrição                             |Prioridade    |Dependencia       |
 |----------------|---------------------------------------|--------------|--------------|
 | RF01           | O sistema deve permitir o cadastro de novos usuários com dados obrigatórios (nome, e-mail, senha).|Alta | Nenhuma     |
 | RF02           | O sistema deve autenticar usuários através de login com e-mail e senha.|Alta | RF01 |
