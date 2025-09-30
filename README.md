@@ -89,8 +89,6 @@ _**2.2. Requisitos Não Funcionais**_
 | RN09 | O sistema deve suportar, simultaneamente, pelo menos 500 usuários ativos em bibliotecas de médio porte, sem degradação perceptível de desempenho. | Alta |
 | RN10 | O aplicativo deve ser compatível com dispositivos móveis Android (versão 10 ou superior) e iOS (versão 14 ou superior), bem como oferecer versão web responsiva | Média |
 
-_<Link, imagem, arquivo com os requisitos não funcionais.>_
-
 _**2.3. Perguntas**_
 
 _<Arquivo com as perguntas realizadas na entrevista .>_
