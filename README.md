@@ -79,14 +79,14 @@ _**2.2. Requisitos Não Funcionais**_
 |Identificador   | Descrição                             |Prioridade    |Dependência       |
 |----------------|---------------------------------------|--------------|------------------|
 | RNF01 |O aplicativo deve estar em conformidade integral com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e regulamentos correlatos, assegurando tratamento, armazenamento, segurança e compartilhamento de dados pessoais conforme princípios e bases legais vigentes.| Alta | Nenhuma |
-| RNF02 |O usuário deve conseguir concluir a locação e a devolução de um livro em, no máximo, 10 interações (cliques ou toques) a partir da tela inicial, em condições usuais de uso.| Média |
-| RNF03 | As listagens do sistema devem ser exibidas em até 10 segundos a partir da solicitação, sob condições normais de operação. | Média |
-| RNF04 | O sistema deve operar corretamente nos principais navegadores suportados (Chrome, Firefox, Safari e Edge), nas versões atualmente mantidas pelos respectivos fabricantes. | Alta |
-| RNF05 | As falhas críticas do sistema devem ser registradas automaticamente em logs centralizados, com tempo de resposta para análise em até 24 horas. | Média |
-| RNF06 | O sistema deve criptografar todas as comunicações entre cliente e servidor utilizando protocolo HTTPS (TLS 1.2 ou superior). | Alta |
+| RNF02 |O usuário deve conseguir concluir a locação e a devolução de um livro em, no máximo, 10 interações (cliques ou toques) a partir da tela inicial, em condições usuais de uso.| Média | RF05
+| RNF03 | As listagens do sistema devem ser exibidas em até 10 segundos a partir da solicitação, sob condições normais de operação. | Média | RF05
+| RNF04 | O sistema deve operar corretamente nos principais navegadores suportados (Chrome, Firefox, Safari e Edge), nas versões atualmente mantidas pelos respectivos fabricantes. | Alta | Nenhuma
+| RNF05 | As falhas críticas do sistema devem ser registradas automaticamente em logs centralizados, com tempo de resposta para análise em até 24 horas. | Média | RF02
+| RNF06 | O sistema deve criptografar todas as comunicações entre cliente e servidor utilizando protocolo HTTPS (TLS 1.2 ou superior). | Alta | Nenhuma
 | RNF07 | O aplicativo deve estar disponível para uso em pelo menos 99,5% do tempo em cada mês, excluindo janelas programadas de manutenção. | Alta | Nenhuma
-| RNF08 | A interface do usuário deve seguir as diretrizes de acessibilidade, garantindo uso adequado por pessoas com deficiência. | Alta |
-| RNF09 | O sistema deve suportar, simultaneamente, pelo menos 500 usuários ativos em bibliotecas de médio porte, sem degradação perceptível de desempenho. | Alta |
+| RNF08 | A interface do usuário deve seguir as diretrizes de acessibilidade, garantindo uso adequado por pessoas com deficiência. | Alta | Nenhuma
+| RNF09 | O sistema deve suportar, simultaneamente, pelo menos 500 usuários ativos em bibliotecas de médio porte, sem degradação perceptível de desempenho. | Alta | RF02, RF05
 | RNF10 | O aplicativo deve ser compatível com dispositivos móveis Android (versão 10 ou superior) e iOS (versão 14 ou superior), bem como oferecer versão web responsiva | Média |
 
 _**2.3. Perguntas**_
