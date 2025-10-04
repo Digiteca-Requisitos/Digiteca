@@ -59,35 +59,35 @@ _<Preencher com o cenário idealizado depois da aplicação do seu sistema.>_
 
 _**2.1. Requisitos Funcionais**_
 
-|Identificador   | Descrição                             |Prioridade    |Dependência       |
-|----------------|---------------------------------------|--------------|--------------|
-| RF01           | O sistema deve permitir o cadastro de novos usuários com dados obrigatórios (nome, e-mail, senha).|Alta | Nenhuma     |
-| RF02           | O sistema deve autenticar usuários através de login com e-mail e senha.|Alta | RF01 |
-| RF03           | O sistema deve somente realizar emprestimos de livros para usuários cadastrados.|Alta | RF01, RF02 |
-| RF04 | O sistema deve permitir o cadastro de livros (título, autor, ano, categoria, código único).|Alta | Nenhuma |
-| RF05 | O sistema deve permitir a consulta de livros cadastrados e mostrar status (disponível, emprestado, reservado). | Alta | RF03|
-| RF06 | O sistema deve registrar o empréstimo de um livro, vinculando usuário, livro e data de devolução. | Alta | RF03, RF04| 
-| RF07 | O sistema deve registrar a devolução de um livro, atualizando o status para disponível. | Alta | RF05 |
-| RF08 | O sistema deve manter um histórico de todos os empréstimos realizados por cada usuário. | Média | RF05, RF06 |
-| RF09 | O sistema deve enviar notificações sobre a proximidade da data de devolução dos livros. | Média | RF05 |
-| RF010 | O sistema deve permitir a reserva de livros que estejam emprestados. | Média | RF04, RF05|
+|Identificador   | Descrição                             |Prioridade    |Dependência       | MoSCoW    |
+|----------------|---------------------------------------|--------------|--------------|------------------|
+| RF01           | O sistema deve permitir o cadastro de novos usuários com dados obrigatórios (nome, e-mail, senha).|Alta | Nenhuma     | M
+| RF02           | O sistema deve autenticar usuários através de login com e-mail e senha.|Alta | RF01 | M
+| RF03           | O sistema deve somente realizar emprestimos de livros para usuários cadastrados.|Alta | RF01, RF02 | M
+| RF04 | O sistema deve permitir o cadastro de livros (título, autor, ano, categoria, código único).|Alta | Nenhuma | M
+| RF05 | O sistema deve permitir a consulta de livros cadastrados e mostrar status (disponível, emprestado, reservado). | Alta | RF03| M
+| RF06 | O sistema deve registrar o empréstimo de um livro, vinculando usuário, livro e data de devolução. | Alta | RF03, RF04| M
+| RF07 | O sistema deve registrar a devolução de um livro, atualizando o status para disponível. | Alta | RF05 | M
+| RF08 | O sistema deve manter um histórico de todos os empréstimos realizados por cada usuário. | Média | RF05, RF06 | S
+| RF09 | O sistema deve enviar notificações sobre a proximidade da data de devolução dos livros. | Média | RF05 | S
+| RF010 | O sistema deve permitir a reserva de livros que estejam emprestados. | Média | RF04, RF05| C
 
 
 
 _**2.2. Requisitos Não Funcionais**_
 
-|Identificador   | Descrição                             |Prioridade    |Dependência       |
-|----------------|---------------------------------------|--------------|------------------|
-| RNF01 |O aplicativo deve estar em conformidade integral com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e regulamentos correlatos, assegurando tratamento, armazenamento, segurança e compartilhamento de dados pessoais conforme princípios e bases legais vigentes.| Alta | Nenhuma |
-| RNF02 |O usuário deve conseguir concluir a locação e a devolução de um livro em, no máximo, 10 interações (cliques ou toques) a partir da tela inicial, em condições usuais de uso.| Média | RF05
-| RNF03 | As listagens do sistema devem ser exibidas em até 10 segundos a partir da solicitação, sob condições normais de operação. | Média | RF05
-| RNF04 | O sistema deve operar corretamente nos principais navegadores suportados (Chrome, Firefox, Safari e Edge), nas versões atualmente mantidas pelos respectivos fabricantes. | Alta | Nenhuma
-| RNF05 | As falhas críticas do sistema devem ser registradas automaticamente em logs centralizados, com tempo de resposta para análise em até 24 horas. | Média | RF02
-| RNF06 | O sistema deve criptografar todas as comunicações entre cliente e servidor utilizando protocolo HTTPS (TLS 1.2 ou superior). | Alta | Nenhuma
-| RNF07 | O aplicativo deve estar disponível para uso em pelo menos 99,5% do tempo em cada mês, excluindo janelas programadas de manutenção. | Alta | Nenhuma
-| RNF08 | A interface do usuário deve seguir as diretrizes de acessibilidade, garantindo uso adequado por pessoas com deficiência. | Alta | Nenhuma
-| RNF09 | O sistema deve suportar, simultaneamente, pelo menos 500 usuários ativos em bibliotecas de médio porte, sem degradação perceptível de desempenho. | Alta | RF02, RF05
-| RNF10 | O aplicativo deve ser compatível com dispositivos móveis Android (versão 10 ou superior) e iOS (versão 14 ou superior), bem como oferecer versão web responsiva | Média |
+|Identificador   | Descrição                             |Prioridade    |Dependência       | MoSCoW    |
+|----------------|---------------------------------------|--------------|------------------|-----------|
+| RNF01 |O aplicativo deve estar em conformidade integral com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018) e regulamentos correlatos, assegurando tratamento, armazenamento, segurança e compartilhamento de dados pessoais conforme princípios e bases legais vigentes.| Alta | Nenhuma | M
+| RNF02 |O usuário deve conseguir concluir a locação e a devolução de um livro em, no máximo, 10 interações (cliques ou toques) a partir da tela inicial, em condições usuais de uso.| Média | RF05 | S
+| RNF03 | As listagens do sistema devem ser exibidas em até 10 segundos a partir da solicitação, sob condições normais de operação. | Média | RF05 | S
+| RNF04 | O sistema deve operar corretamente nos principais navegadores suportados (Chrome, Firefox, Safari e Edge), nas versões atualmente mantidas pelos respectivos fabricantes. | Alta | Nenhuma | M
+| RNF05 | As falhas críticas do sistema devem ser registradas automaticamente em logs centralizados, com tempo de resposta para análise em até 24 horas. | Baixa | RF02 | C
+| RNF06 | O sistema deve criptografar todas as comunicações entre cliente e servidor utilizando protocolo HTTPS (TLS 1.2 ou superior). | Alta | Nenhuma | M
+| RNF07 | O aplicativo deve estar disponível para uso em pelo menos 99,5% do tempo em cada mês, excluindo janelas programadas de manutenção. | Alta | Nenhuma | M
+| RNF08 | A interface do usuário deve seguir as diretrizes de acessibilidade, garantindo uso adequado por pessoas com deficiência. | Alta | Nenhuma | M
+| RNF09 | O sistema deve suportar, simultaneamente, pelo menos 500 usuários ativos em bibliotecas de médio porte, sem degradação perceptível de desempenho. | Alta | RF02, RF05 | M
+| RNF10 | O aplicativo deve ser compatível com dispositivos móveis Android (versão 10 ou superior) e iOS (versão 14 ou superior), bem como oferecer versão web responsiva | Média | Todos | M
 
 _**2.3. Perguntas**_
 
