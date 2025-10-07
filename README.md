@@ -37,13 +37,48 @@ _**Personas:**_
 
 _<Imagem, arquivo (PDF), link com as Personas.>_
 
-_**Análise da situação atual: antes da introdução de sua solução**_
 
-_`1. O que as pessoas fazem?`_  _`2. Quais os artefatos envolvidos?`_  _`3. O que elas precisam saber?`_
+## Análise da Situação Atual (Antes da Digiteca)
 
-_**Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:**_
+### O que as pessoas fazem?
+- *Alunos:* Vão presencialmente à biblioteca, consultam catálogos físicos ou perguntam aos bibliotecários sobre livros disponíveis, preenchem fichas de empréstimo manualmente
+- *Professoras:* Visitam a biblioteca para verificar acervo, anotam informações em cadernos, fazem solicitações verbais ou por bilhetes aos bibliotecários
 
-_`1. O que as pessoas fazem?`_  _`2. Quais os artefatos envolvidos?`_  _`3. O que elas precisam saber?`_
+### Quais os artefatos envolvidos?
+- Fichas de empréstimo em papel
+- Catálogos físicos ou cadernos de registro
+- Carimbos e carimbeiras para datas
+- Cadernos de controle manual
+- Bilhetes e anotações avulsas
+
+### O que elas precisam saber?
+- Localização física da biblioteca e horários de funcionamento
+- Como usar o sistema de catalogação (CDD, por exemplo)
+- Regras de empréstimo (prazos, quantidades, renovações)
+- Como preencher fichas corretamente
+- A quem se dirigir para diferentes solicitações
+
+---
+
+## Análise das Tarefas Depois (Com a Digiteca)
+
+### O que as pessoas fazem?
+- *Alunos:* Acessam o sistema via celular ou computador, buscam livros digitalmente, verificam disponibilidade em tempo real, fazem empréstimos/reservas online, recebem notificações automáticas
+- *Professoras:* Consultam o acervo remotamente, criam listas de leitura, acompanham uso da biblioteca pelos alunos através de relatórios, comunicam-se com a biblioteca via sistema
+
+### Quais os artefatos envolvidos?
+- Smartphones, tablets ou computadores
+- Aplicativo/site do Digiteca
+- Notificações push ou por e-mail
+- Dashboard com histórico e estatísticas
+- QR codes para identificação rápida de livros
+
+### O que elas precisam saber?
+- Como acessar e fazer login no sistema
+- Como pesquisar livros (palavras-chave, filtros)
+- Como interpretar status dos livros (disponível, emprestado, reservado)
+- Como gerenciar seus empréstimos e reservas
+- Como configurar preferências de notificação
 
 _**Cenário: Antes**_
 
