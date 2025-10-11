@@ -100,7 +100,7 @@ _**2.1. Requisitos Funcionais**_
 | RF02           | O sistema deve autenticar usuários através de login com e-mail e senha.|Alta | RF01 | M
 | RF03           | O sistema deve somente realizar emprestimos de livros para usuários cadastrados. Caso contrário, deverá aparecer a mensagem "Usuário não cadastrado."|Alta | RF01, RF02 | M
 | RF04 | O sistema deve permitir o cadastro de livros (título 100 cacteres, autor 20 cacteres, ano, filtro por categoria, código único de até 5 digitos).|Alta | Nenhuma | M
-| RF05 | O sistema deve permitir a consulta de livros cadastrados e mostrar status (disponível, emprestado, reservado). | Alta | RF03| M
+| RF05 | O sistema deve permitir a consulta de livros cadastrados e mostrar status por filtro de disponível, emprestado e reservado. | Alta | RF03| M
 | RF06 | O sistema deve registrar o empréstimo de um livro, vinculando usuário, livro e data de devolução. | Alta | RF03, RF04| M
 | RF07 | O sistema deve registrar a devolução de um livro, atualizando o status para disponível. | Alta | RF05 | M
 | RF08 | O sistema deve manter um histórico de todos os empréstimos realizados por cada usuário. | Média | RF05, RF06 | S
