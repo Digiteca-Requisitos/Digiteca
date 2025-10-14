@@ -105,8 +105,7 @@ _**2.1. Requisitos Funcionais**_
 | RF07 | O sistema deve permitir o registro da devolução de um livro, atualizando automaticamente seu status para disponível. Se a devolução estiver atrasada, o sistema deve registrar essa informação e acionar o fluxo de tratamento de atrasos (ex: notificações, bloqueio de novos empréstimos, etc.). | Alta | RF05 | M |
 | RF08 | O sistema deve manter um histórico completo de todos os empréstimos realizados por cada usuário, contendo: título do livro, data de empréstimo, data de devolução (se houver) e status (devolvido, em atraso).
 O histórico deve ser mantido por um período mínimo de X meses/anos (valor a definir) e exibido de forma ordenada (mais recentes primeiro). | Média | RF05, RF06 | S |
-| RF09 | O sistema deve enviar notificações automáticas aos usuários informando a proximidade da data de devolução dos livros emprestados.
-As notificações devem ser enviadas com antecedência mínima de X dias (valor configurável) e podem ser enviadas via e-mail, aplicativo ou SMS, conforme a preferência definida pelo usuário no cadastro. | Média | RF05 | S |
+| RF09 | O sistema deve enviar notificações automáticas aos usuários informando a proximidade da data de devolução dos livros emprestados. As notificações devem ser enviadas com antecedência mínima de X dias (valor configurável) e podem ser enviadas via e-mail, aplicativo ou SMS, conforme a preferência definida pelo usuário no cadastro. | Média | RF05 | S |
 | RF10 | O sistema deve permitir a reserva de livros que estejam emprestados. Os livros que já estiverem emprestados, devem possuir um modelo de fila de empréstimo, a onde, quando esse livro estiver disponível, ele deve ser ofertado ao primeiro usuário na lista de espera | Média | RF04, RF05| C |
 
 
