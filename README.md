@@ -134,7 +134,9 @@ _<Arquivo com as respostas do indivíduo entrevistado e link do drive com upload
 
 _**2.5. Histórias do Usuário**_
 
-_<Imagem, arquivo (PDF), link com as Histórias de Usuário.>_
+Como um usuário, eu quero poder me cadastrar no aplicativo.
+
+Como um cliente, eu quero buscar por um livro e visualizar a disponibilidade.
 
 _**2.6. Diagramas de Caso de Uso e Especificações**_
 
