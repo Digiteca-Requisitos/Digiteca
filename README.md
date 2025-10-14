@@ -106,6 +106,9 @@ _**2.1. Requisitos Funcionais**_
 | RF08 | O sistema deve manter um histórico completo de todos os empréstimos realizados por cada usuário, contendo: título do livro, data de empréstimo, data de devolução (se houver) e status (devolvido, em atraso). O histórico deve ser mantido por um período mínimo de X meses/anos (valor a definir) e exibido de forma ordenada (mais recentes primeiro). | Média | RF05, RF06 | S |
 | RF09 | O sistema deve enviar notificações automáticas aos usuários informando a proximidade da data de devolução dos livros emprestados. As notificações devem ser enviadas com antecedência mínima de X dias (valor configurável) e podem ser enviadas via e-mail, aplicativo ou SMS, conforme a preferência definida pelo usuário no cadastro. | Média | RF05 | S |
 | RF10 | O sistema deve permitir a reserva de livros que estejam emprestados. Os livros que já estiverem emprestados, devem possuir um modelo de fila de empréstimo, a onde, quando esse livro estiver disponível, ele deve ser ofertado ao primeiro usuário na lista de espera | Média | RF04, RF05| C |
+| RF11 | O sistema deve permitir que o usuário renove o prazo de empréstimo de um livro, caso não haja reserva pendente. | Média | RF06 | C |
+| RF12 | O sistema deve permitir que o usuário redefina sua senha por meio de link enviado ao e-mail cadastrado. | Média | RF01 | S |
+| RF13 | O sistema deve permitir que o usuário avalie livros com notas e comentários após a devolução. | Baixa | RF07 | C |
 
 
 
@@ -134,9 +137,19 @@ _<Arquivo com as respostas do indivíduo entrevistado e link do drive com upload
 
 _**2.5. Histórias do Usuário**_
 
-Como um usuário, eu quero poder me cadastrar no aplicativo.
-
-Como um cliente, eu quero buscar por um livro e visualizar a disponibilidade.
+- Como um novo usuário, eu quero poder me cadastrar informando meus dados para ter acesso ao sistema e suas funcionalidades.
+- Como um usuário cadastrado, eu quero fazer login com meu e-mail e senha para acessar minha conta e meus empréstimos.  
+- Como um usuário, eu quero que o sistema só permita empréstimos se eu estiver cadastrado, para garantir a segurança e controle.  
+- Como um administrador, eu quero cadastrar livros informando título, autor, ano, categoria e código, para disponibilizá-los aos usuários.  
+- Como um usuário, eu quero buscar livros por título, autor ou categoria e visualizar seu status para escolher o que desejo pegar emprestado.  
+- Como um usuário, eu quero realizar o empréstimo de um livro, informando a data de devolução, para poder ler o livro por um período determinado.  
+- Como um usuário, eu quero devolver um livro emprestado e ver o status atualizado para “disponível”, para manter meu cadastro regularizado e evitar atrasos.  
+- Como um usuário, eu quero visualizar o histórico dos meus empréstimos, com as datas e status, para acompanhar quais livros já li e quando foram devolvidos.  
+- Como um usuário, eu quero receber notificações automáticas sobre a data de devolução dos livros, para evitar atrasos e bloqueios de novos empréstimos.  
+- Como um usuário, eu quero poder reservar livros que estão emprestados e entrar na fila de espera, para garantir que eu receba o livro assim que ele for devolvido.  
+- Como um usuário, eu quero renovar o prazo de empréstimo de um livro para continuar lendo sem precisar devolvê-lo imediatamente.  
+- Como um usuário, eu quero recuperar minha senha por e-mail caso eu a esqueça, para voltar a acessar minha conta.  
+- Como um usuário, eu quero avaliar e comentar os livros que li, para ajudar outros usuários a escolherem o que ler.  
 
 _**2.6. Diagramas de Caso de Uso e Especificações**_
 
