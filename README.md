@@ -126,6 +126,7 @@ _**2.2. Requisitos Não Funcionais**_
 | RNF08 | A interface do usuário deve seguir as diretrizes de acessibilidade, garantindo uso adequado por pessoas com deficiência. | Alta | Nenhuma | M
 | RNF09 | O sistema deve suportar, simultaneamente, pelo menos 500 usuários ativos em bibliotecas de médio porte, sem degradação perceptível de desempenho. | Alta | RF02, RF05 | M
 | RNF10 | O aplicativo deve ser compatível com dispositivos móveis Android (versão 10 ou superior) e iOS (versão 14 ou superior), bem como oferecer versão web responsiva | Média | RF01 a RF10 | M
+| RNF11 | Os dados pessoais dos usuários devem ser tratados conforme a LGPD (Lei Geral de Proteção de Dados). | Alta | RF01 a RF02 | M
 
 _**2.3. Perguntas**_
 
