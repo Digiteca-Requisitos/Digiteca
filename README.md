@@ -130,8 +130,24 @@ _**2.2. Requisitos Não Funcionais**_
 
 _**2.3. Perguntas**_
 
-_<Arquivo com as perguntas realizadas na entrevista .>_
-
+ |Perguntas  |
+|--|--|
+|1 - Qual o seu nome e idade?|
+|2 - Qual o seu cargo na instituição?|
+|3 - Há quanto tempo você trabalha nesta função?|
+|4 - Você utiliza mais o celular ou o computador para realizar suas atividades profissionais?|
+|5 - Quanto tempo, em média, você passa utilizando esses dispositivos durante um dia de trabalho?|
+|6 - Você ja utiliza algum sistema digital para gerenciar atividades relacionadas à biblioteca ou empréstimo de livros? Se sim, qual?|
+|7 - Como funciona atualmente o processo de empréstimo de livros na sua instituição? É totalmente manual, parcialmente digital ou totalmente digital?|
+|8 - Quais são os principais desafios ou dificuldades que você enfrenta no processo atual de empréstimo e devolução de livros?|
+|9 - como você controla os prazos de devolução e lida com atrasos dos alunos?|
+|10 - Existe algum tipo de registro histórico dos empréstimos realizados pelos alunos? Como este registro é feito?|
+|11 - Qual o principal meio de comunicação que você utiliza para se comunicar com alunos, professores ou outros funcionários sobre questão da biblioteca?|
+|12 - Como os alunos e professores ficam sabendo sobre a disponibilidade de livros ou sobre prazos de devolução?|
+|13 - Você acredita que um sistema digital de gestão de biblioteca (como a digiteca) poderia auxiliar no seu trabalho? De qual forma?|
+|14 - Quais funcionalidades você considera essenciais em um sistema de empréstimo de livros digital? (Exemplos: consulta de disponibilidade, notificações automáticas, reserva de livros, histórico de empréstimos)|
+|15 - Na sua opinião, quais seriam as maiores vantagens de digitalizar o processo de empréstimo de livros na sua instituição?*|
+|
 _**2.4. Entrevista**_
 
 _https://drive.google.com/drive/folders/1_GDFPltwnpF6SB10bgyaTDUPMT0tO0J0?usp=drive_link_
