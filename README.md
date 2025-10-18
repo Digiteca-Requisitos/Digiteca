@@ -145,6 +145,7 @@ _**2.3. Perguntas**_
 - 13 - Você acredita que um sistema digital de gestão de biblioteca (como a digiteca) poderia auxiliar no seu trabalho? De qual forma?
 - 14 - Quais funcionalidades você considera essenciais em um sistema de empréstimo de livros digital? (Exemplos: consulta de disponibilidade, notificações automáticas, reserva de livros, histórico de empréstimos)
 - 15 - Na sua opinião, quais seriam as maiores vantagens de digitalizar o processo de empréstimo de livros na sua instituição?
+
 _**2.4. Entrevista**_
 
 _https://drive.google.com/drive/folders/1_GDFPltwnpF6SB10bgyaTDUPMT0tO0J0?usp=drive_link_
