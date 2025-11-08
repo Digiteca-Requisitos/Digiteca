@@ -176,7 +176,7 @@ _<Imagem, arquivo (PDF), link com Diagrama de Atividades.>_
 
 _**2.8. Protótipos**_
 
-_<Imagem, arquivo (PDF), link com Protótipo.>_
+[_<Imagem, arquivo (PDF), link com Protótipo.>_](https://ninjamock.com/s/Q2N7QZx)
 
 ## Referências
 
