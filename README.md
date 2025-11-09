@@ -172,7 +172,7 @@ _<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>_
 
 _**2.7. Diagramas de Atividades**_
 
-_<Imagem, arquivo (PDF), link com Diagrama de Atividades.>_
+[_<Imagem, arquivo (PDF), link com Diagrama de Atividades.>_](https://drive.google.com/file/d/1G1f3Q2J9Gulbk6o09ZHdwF-d6NvtvWmN/view?usp=sharing)
 
 _**2.8. Protótipos**_
 
