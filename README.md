@@ -168,7 +168,7 @@ _**2.5. Histórias do Usuário**_
 
 _**2.6. Diagramas de Caso de Uso e Especificações**_
 
-[_Diagrama de Caso de uso_](https://drive.google.com/file/d/1L5oFpUn-RLwnBlfWiF0oaFLcX9uTmnet/view?usp=sharing)_
+[_Diagrama de Caso de uso_](https://drive.google.com/file/d/1L5oFpUn-RLwnBlfWiF0oaFLcX9uTmnet/view?usp=sharing)
 
 _**2.7. Diagramas de Atividades**_
 
