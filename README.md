@@ -35,8 +35,11 @@ O sistema será utilizado por diferentes perfis de usuários finais, todos vincu
 
 _**Personas:**_
 
-_<Imagem, arquivo (PDF), link com as Personas.>_
+### Persona – Lucas Henrique Santos - Estudante
+![Persona Lucas](./Persona%20Lucas.jpeg)
 
+### Persona – Maria Fernanda  Oliveira - Biliotecária
+![Persona Maria](./Persona%20Maria.jpeg)
 
 ## Análise da Situação Atual (Antes da Digiteca)
 
