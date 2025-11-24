@@ -83,13 +83,6 @@ _**Personas:**_
 - Como gerenciar seus empréstimos e reservas
 - Como configurar preferências de notificação
 
-_**Cenário: Antes**_
-
-_<Preencher com o cenário idealizado antes da aplicação do seu sistema.>_
-
-_**Cenário: Depois**_
-
-_<Preencher com o cenário idealizado depois da aplicação do seu sistema.>_
 
 ## 2. Documentos gerais no repositório
 
