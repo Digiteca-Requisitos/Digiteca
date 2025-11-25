@@ -173,6 +173,7 @@ _**2.7. Diagramas de Atividades**_
 _**2.8. Protótipos**_
 
 [_Protótipo Digiteca no NinjaMock_](https://ninjamock.com/s/Q2N7QZx)
+[Live demo ](https://mateuscastroc.github.io/prototipo-digiteca-js-vanilla/admin/index.html)
 
 ## Referências
 
